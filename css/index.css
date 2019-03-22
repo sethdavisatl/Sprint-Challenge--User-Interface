@@ -350,6 +350,12 @@ button {
     font-weight: 525;
 }
 
+button:hover {
+    background-color: black;
+    color: white;
+    font-size: 120%;
+}
+
 .about-page-bottom {
     margin-bottom: 20px;
     margin-left: 15px;
