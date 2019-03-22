@@ -321,7 +321,6 @@ footer nav a {
     flex-direction: column;
     justify-content: space-between;
     border-top: 1px dashed black;
-    padding-top: 20px;
 }
 
 .about-page-container div {
@@ -331,7 +330,8 @@ footer nav a {
     border-bottom: 1px dashed gray;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 10px 17px;
+    margin: 10px 10px 0 20px;
+    padding-top: 30px;
 }
 
 .about-page-container div img {
@@ -360,5 +360,5 @@ button:hover {
     margin-bottom: 20px;
     margin-left: 15px;
     margin-top: 20px;
-    padding-bottom: 20px;
+    padding:20px 0;
 }
