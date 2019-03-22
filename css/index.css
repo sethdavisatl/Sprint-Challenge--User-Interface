@@ -185,9 +185,11 @@ header nav a {
     text-decoration: none;
     margin: 0 35px;
 }
+
 .blurredLights {
     margin-bottom: 30px;
 }
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -306,6 +308,7 @@ footer nav a {
 .skyLine {
     margin-bottom: 20px;
 }
+
 .about-page {
     margin-left: 20px;
     margin-bottom: 20px;
@@ -327,10 +330,13 @@ footer nav a {
     border-bottom: 1px dashed gray;
     margin: 30px 0;
     padding-bottom: 20px;
+    flex-wrap: wrap;
 }
+
 .about-page-container div img {
     margin-bottom: 10px;
 }
+
 button {
     width: 125px;
     border: 2px solid black;
@@ -340,4 +346,11 @@ button {
     background-color: white;
     font-size: 15px;
     font-weight: 525;
+}
+
+.about-page-bottom {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-bottom: 20px;
 }
