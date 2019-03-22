@@ -316,22 +316,17 @@ footer nav a {
 }
 
 .about-page-container {
-    display: inline-block;
+    display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     border-top: 1px dashed black;
+    padding: 15px 0;
 }
 
 .about-page-container div {
     width: 45%;
-    display: inline-block;
-    flex-direction: column;
+    margin: 20px 0;
     border-bottom: 1px dashed gray;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 10px 10px 0 20px;
-    padding-top: 30px;
 }
 
 .about-page-container div img {
@@ -359,6 +354,5 @@ button:hover {
 .about-page-bottom {
     margin-bottom: 20px;
     margin-left: 15px;
-    margin-top: 20px;
-    padding:20px 0;
+    padding: 20px 0;
 }
